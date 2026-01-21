@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine?</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Floating hearts -->
+  <div class="hearts">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confetti"></canvas>
+
+  <div class="container">
+    <h1 class="title">Will You Be My Valentine? 💖</h1>
+
+    <div class="images">
+      <img src="photo1.jpg" alt="Us Together" class="photo">
+      <img src="photo2.jpg" alt="Happy Times" class="photo">
+    </div>
+
+    <div class="letter">
+      <h2>Hey ❤️</h2>
+      <p>You make my heart smile every day! I hope we create many happy memories together. 🌸</p>
+      <p>So… <strong>Will you be my Valentine?</strong> 💕</p>
+      <p class="sign">— With all my love</p>
+    </div>
+
+    <button class="btn" onclick="showPopup()">Yes! 💌</button>
+  </div>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2>Yay! 💖</h2>
+      <p>I'm so happy you said yes! Can't wait for all our special moments. 🌸🌟</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
